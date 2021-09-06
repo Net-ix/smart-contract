@@ -27,11 +27,11 @@ module.exports = {
     },
     development: {
       // For trontools/quickstart docker image
-      privateKey: process.env.PRIVATE_KEY_DEVELOPMENT,
-      userFeePercentage: 0,
+      privateKey: 'cb415a4e2661572604277318156d3c427d44a75be71602867c8b956867e2c8ad',
+      // userFeePercentage: 50,
       // feeLimit: 1e8,
       fullHost: 'http://127.0.0.1:' + port,
-      network_id: '8392'
+      network_id: '9'
     },
     compilers: {
       solc:{

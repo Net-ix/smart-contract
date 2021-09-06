@@ -1,4 +1,4 @@
-var NetIx = artifacts.require("NetIx");
+var NetIx = artifacts.require("./NetIx.sol");
 
 const { parseAndCreate } = require('../initialInfo/utils/token')
 
